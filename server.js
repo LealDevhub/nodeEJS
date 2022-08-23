@@ -40,5 +40,6 @@ app.get('/sobre', function (req, res) {
   res.render('pages/about')
 })
 
-app.listen(8080)
-console.log('RODANDO')
+app.listen(process.env.PORT || 8080, function () {
+  console.log('RODANDO', this.address().port, app.settings.env)
+})
