@@ -1,0 +1,16 @@
+{
+  "name": "nodeejs",
+  "version": "1.0.0",
+  "description": "Projeto desenvolvido no curso Discover, plataforma da Rocketseat. O objetivo é criar um site através no node com o uso de EJS para criação de um servidor.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "FPLeal",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.1.8",
+    "express": "^4.18.1"
+  }
+}
